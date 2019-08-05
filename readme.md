@@ -9,7 +9,15 @@
 
 ## It's just my blog on Laravel
 
-Ничего интересного, просто скучный блог
+My first blog on Laravel. It have basic function to blog.
+
+## In future
+
+-Today's user counter<br>
+-Good design<br>
+-User's role<br>
+-Comment system<br>
+-Loading photo<br>
 
 ## License
 
