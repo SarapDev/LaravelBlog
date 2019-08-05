@@ -15,7 +15,7 @@
             </div>
             <div class="col-sm-3">
                 <div class="jumbotron jumbotron-fluid">
-                    <a href="{{route('admin.user_managment.user.index')}}" class="btn btn-lg btn-outline-dark ml-md-5" role="button"><span class="label label-primary p-1">Users 0</span> </a>
+                    <a href="{{route('admin.user_managment.user.index')}}" class="btn btn-lg btn-outline-dark ml-md-5" role="button"><span class="label label-primary p-1">Users {{$count_user}}</span> </a>
                 </div>
             </div>
             <div class="col-sm-3">
