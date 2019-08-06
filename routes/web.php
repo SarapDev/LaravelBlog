@@ -11,6 +11,8 @@
 |
 */
 
+use App\User;
+
 Route::get('/blog/category/{slug?}', 'BlogController@category')->name('category');
 Route::get('/blog/article/{slug?}', 'BlogController@article')->name('article');
 
@@ -21,6 +23,7 @@ Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['auth']], 
     Route::resource('/article', 'ArticleController', ['as'=>'admin']);
     Route::group(['prefix' => 'user_managment', 'namespace' => 'UserManagment'], function ()
     {
+        Route::get('/user/today', 'UserController@today')->name('admin.user_managment.user.today');
         Route::resource('/user', 'UserController', ['as' => 'admin.user_managment']);
     });
 });

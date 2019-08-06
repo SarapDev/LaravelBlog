@@ -20,7 +20,7 @@
             </div>
             <div class="col-sm-3">
                 <div class="jumbotron jumbotron-fluid">
-                    <a href="#" class="btn btn-lg btn-outline-dark ml-md-5" role="button"><span class="label label-primary p-1">Users today 0</span> </a>
+                    <a href="{{route('admin.user_managment.user.today')}}" class="btn btn-lg btn-outline-dark ml-md-5" role="button"><span class="label label-primary p-1">Users today {{$count_user_today}}</span> </a>
                 </div>
             </div>
         </div>

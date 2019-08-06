@@ -20,6 +20,13 @@ class UserController extends Controller
         ]);
     }
 
+    public function today()
+    {
+        return view('admin.user_managment.user.today', [
+            'users' => User::where('login_at', '>', \Carbon\Carbon::now()->subHour(11)->format('ymdHi'))
+        ]);
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -121,4 +128,5 @@ class UserController extends Controller
 
         return redirect()->route('admin.user_managment.user.index');
     }
+
 }

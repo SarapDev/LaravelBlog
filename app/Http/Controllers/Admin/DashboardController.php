@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Article;
 use App\Category;
 use App\User;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -19,7 +20,7 @@ class DashboardController extends Controller
             'count_categories'=>Category::count(),
             'count_articles'=>Article::count(),
             'count_user'=>User::count(),
-
+            'count_user_today'=>User::where('login_at', '>', \Carbon\Carbon::now()->subHour(11)->format('ymdHi'))->count(),
         ]);
     }
 }
