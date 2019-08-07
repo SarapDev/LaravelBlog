@@ -23,6 +23,7 @@
                     <tr>
                         <td>{{$user->name}}</td>
                         <td>{{$user->email}}</td>
+                        <td class="text-right">{{$user->login_at}}</td>
                     </tr>
                 @empty
                     <tr>
@@ -34,7 +35,7 @@
                 <tr>
                     <td colspan="3">
                         <ul class="pagination pull-right"></ul>
-{{--                        {{$users->links()}}--}}
+                        {{$users->links()}}
                     </td>
                 </tr>
                 </tfoot>
