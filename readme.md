@@ -13,7 +13,7 @@ My first blog on Laravel. It have basic function to blog.
 
 ## In future
 
--Today's user counter<br>
+-<s>Today's user counter</s><br>
 -Good design<br>
 -User's role<br>
 -Comment system<br>
