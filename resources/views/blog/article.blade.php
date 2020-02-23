@@ -13,4 +13,7 @@
             </div>
         </div>
     </div>
+    <div>
+        @include('admin.components.comment')
+    </div>
 @endsection

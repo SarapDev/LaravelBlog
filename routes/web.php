@@ -28,10 +28,7 @@ Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['auth']], 
     });
 });
 
-Route::get('/', function ()
-{
-    return view('blog.home');
-});
+Route::get('/', 'Controller@index');
 
 Auth::routes();
 
