@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5486cf3-1669-463c-b43e-1f6bcbf861af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_23_121535_create_comments_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/components/comment.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/article.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/article.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_23_121535_create_comments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_23_121535_create_comments_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/components/comment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/components/comment.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +194,7 @@
       <workItem from="1564980666693" duration="12630000" />
       <workItem from="1565065583881" duration="22286000" />
       <workItem from="1565160938962" duration="898000" />
-      <workItem from="1582433569103" duration="3507000" />
+      <workItem from="1582433569103" duration="5000000" />
     </task>
     <servers />
   </component>
@@ -237,5 +232,13 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="600" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1582433568524" />
+    <state x="624" y="253" key="run.anything.popup" timestamp="1582440403730">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="624" y="253" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1582440403730" />
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1582440378388">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1582440378388" />
   </component>
 </project>

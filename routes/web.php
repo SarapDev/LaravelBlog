@@ -30,6 +30,8 @@ Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['auth']], 
 
 Route::get('/', 'Controller@index');
 
+Route::post('/comment', 'CommentController@validator');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
